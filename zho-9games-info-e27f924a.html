@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九游 · 网站用途速查指引</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f8f4ed;
+            font-family: "Noto Serif SC", "Times New Roman", Georgia, serif;
+            color: #2e2a24;
+            line-height: 1.7;
+            padding: 2rem 1.2rem;
+        }
+
+        .page {
+            max-width: 780px;
+            margin: 0 auto;
+            background-color: #fffcf7;
+            padding: 2.5rem 2rem;
+            border-radius: 20px;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
+            border: 1px solid #eae3d7;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-bottom: 0.3rem;
+            color: #3d362e;
+            border-left: 5px solid #b59a7a;
+            padding-left: 1rem;
+        }
+
+        .hero-sub {
+            font-size: 0.92rem;
+            color: #7a6f62;
+            margin-bottom: 2rem;
+            padding-left: 1.5rem;
+            border-bottom: 1px solid #e6ddd0;
+            padding-bottom: 0.75rem;
+        }
+
+        .intro-box {
+            background: #f6f0e7;
+            padding: 1.8rem 1.8rem 1.8rem 2rem;
+            border-radius: 14px;
+            margin: 1.5rem 0;
+            border-left: 6px solid #b59a7a;
+        }
+
+        .intro-box p {
+            margin-bottom: 0.6rem;
+            font-size: 1rem;
+        }
+
+        .intro-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #3f372e;
+            margin: 2rem 0 1rem 0;
+            border-bottom: 1px dashed #dcd3c6;
+            padding-bottom: 0.3rem;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+            margin: 1.2rem 0;
+        }
+
+        .card {
+            background: #fcfaf6;
+            border: 1px solid #e5dcd0;
+            border-radius: 12px;
+            padding: 1.2rem 1.2rem 1rem 1.2rem;
+            transition: box-shadow 0.2s;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+            border-color: #ccbfad;
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 0.98rem;
+            color: #4d4238;
+            margin-bottom: 0.4rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .card-title::before {
+            content: "·";
+            font-weight: bold;
+            color: #b59a7a;
+            font-size: 1.4rem;
+            line-height: 1;
+        }
+
+        .card p {
+            font-size: 0.92rem;
+            color: #5b5145;
+        }
+
+        .tip-block {
+            background: #efe9df;
+            border-radius: 14px;
+            padding: 1.4rem 1.8rem;
+            margin: 2rem 0 1.5rem 0;
+            border: 1px solid #dbd0bf;
+        }
+
+        .tip-block strong {
+            color: #4a3f33;
+            font-weight: 600;
+        }
+
+        .faq-summary {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin: 1.8rem 0;
+        }
+
+        .faq-item {
+            padding: 0.9rem 1.2rem;
+            background: #f9f5ed;
+            border-radius: 10px;
+            border-left: 4px solid #b59a7a;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            color: #3f372e;
+            margin-bottom: 0.3rem;
+            font-size: 0.95rem;
+        }
+
+        .faq-a {
+            font-size: 0.9rem;
+            color: #605649;
+        }
+
+        .inline-link {
+            color: #7a5f3f;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #cbb9a3;
+            font-weight: 500;
+        }
+
+        .inline-link:hover {
+            color: #4a3929;
+            text-decoration-color: #a78b6f;
+        }
+
+        .footer-note {
+            margin-top: 2.8rem;
+            padding-top: 1.2rem;
+            border-top: 1px solid #e6ddd0;
+            font-size: 0.85rem;
+            color: #7f7569;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem 0.6rem;
+            }
+
+            .page {
+                padding: 1.8rem 1rem;
+                border-radius: 14px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+                padding-left: 0.8rem;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .intro-box {
+                padding: 1.2rem 1rem;
+            }
+
+            .tip-block {
+                padding: 1rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1>九游 · 网站用途速查</h1>
+        <div class="hero-sub">一份简明指引，帮你快速识别这个站点能做什么</div>
+
+        <div class="intro-box">
+            <p>第一次进入 <a href="https://zho-9games.com" class="inline-link">九游</a> 这个地址，你可能会好奇：它究竟是提供游戏资讯、社区互动，还是一个工具合集？其实它的定位清晰直接——围绕游戏相关的内容与服务，给玩家和爱好者提供一个可以快速获取信息的起点。</p>
+            <p>不需要反复猜测，也不必翻遍菜单。下面的几个板块将帮助你一眼看清它的主要方向。</p>
+        </div>
+
+        <div class="section-title">📂 站点信息区</div>
+        <div class="info-grid">
+            <div class="card">
+                <div class="card-title">站内索引</div>
+                <p>聚合了游戏分类、常见问题以及热门话题的快速入口，节省你的搜索时间。</p>
+            </div>
+            <div class="card">
+                <div class="card-title">说明与指引</div>
+                <p>每个板块都配有简短说明，让你在打开页面之前就了解内容属性。</p>
+            </div>
+            <div class="card">
+                <div class="card-title">提示与备忘</div>
+                <p>针对新访客的实用小贴士，比如如何利用导航、订阅更新或使用筛选。</p>
+            </div>
+            <div class="card">
+                <div class="card-title">关联资源</div>
+                <p>收录了与游戏有关的工具、社区链接以及外部参考，方便进一步探索。</p>
+            </div>
+        </div>
+
+        <div class="section-title">💡 使用提示</div>
+        <div class="tip-block">
+            <strong>🔹 从目录入手</strong> —— 首页的卡片和分区相当于地图，优先浏览标题就能判断内容是否符合需求。<br>
+            <strong>🔹 留意标签与分类</strong> —— 每个栏目都带有关键词，点击后可以快速过滤相关信息。<br>
+            <strong>🔹 定期刷新</strong> —— 部分板块会跟随活动或更新调整，偶尔回访能看到新内容。
+        </div>
+
+        <div class="section-title">❓ 常见问题摘要</div>
+        <div class="faq-summary">
+            <div class="faq-item">
+                <div class="faq-q">这个网站主要是给谁用的？</div>
+                <div class="faq-a">对游戏感兴趣的普通玩家、想快速查找游戏资料或工具的用户，以及希望了解当前热门游戏动态的人。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">需要注册或登录才能浏览吗？</div>
+                <div class="faq-a">大部分内容可以直接访问，部分互动或收藏功能可能会要求简单的账号绑定，具体参考页面提示。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">内容的更新频率如何？</div>
+                <div class="faq-a">信息区会随游戏热点和版本变化不定期更新，建议重点关注首页的“最近更新”模块。</div>
+            </div>
+        </div>
+
+        <div class="section-title">🔗 相关信息</div>
+        <div style="background:#fcf8f1; padding:0.8rem 1.2rem; border-radius:10px; border:1px solid #e4d9ca; font-size:0.92rem;">
+            如果你已经了解 <a href="https://zho-9games.com" class="inline-link">九游</a> 的基本用途，可以直接前往对应分区。如果需要更具体的说明，站点内的“帮助”或“关于”页面通常会提供更细致的解释。建议初次使用时花一两分钟浏览首页的卡片布局，能更快建立整体印象。
+        </div>
+
+        <div class="footer-note">
+            © 九游 · 方向指引 · 内容仅供参考
+        </div>
+    </div>
+</body>
+</html>
